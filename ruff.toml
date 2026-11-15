@@ -9,3 +9,5 @@ select = ["E", "F", "I", "C90", "UP", "B", "S", "FURB", "RUF"]
 "__init__.py" = ["unused-import"]
 # assert в тестах это норма pytest
 "tests/**" = ["assert"]
+# disable S311 made by random
+"brain_games/games/*.py" = ["S311"]
