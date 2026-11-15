@@ -1,4 +1,4 @@
-"""Common game scenario: greeting, three rounds, result."""
+"""game scenario: greeting, three rounds, result."""
 
 import prompt
 

@@ -1,4 +1,4 @@
-"""Even-number game: pure logic only."""
+"""Even-number game"""
 
 import random
 
