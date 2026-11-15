@@ -2,8 +2,8 @@
 
 [![hexlet-check](https://github.com/pipe-arch/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/pipe-arch/devops-engineer-from-scratch-project-49/actions)
 
-«Игры разума» — пять консольных игр для тренировки мозга: программа задаёт
-вопросы, а игрок отвечает. Три правильных ответа подряд — победа; ошибка
+«Игры разума» - пять консольных игр для тренировки мозга: программа задаёт
+вопросы, а игрок отвечает. Три правильных ответа подряд - победа; ошибка
 завершает игру и предлагает пройти её заново.
 
 Учебный проект Хекслета:
@@ -19,12 +19,10 @@ https://ru.hexlet.io/programs/devops-engineer-from-scratch
 | `brain-progression` | найти пропущенное число в арифметической прогрессии |
 | `brain-prime` | ответить `yes`, если число простое, иначе — `no` |
 
-Команда `brain-games` только приветствует игрока и не задаёт вопросов.
-
 ## Требования
 
 - Python 3.12 или новее
-- [uv](https://docs.astral.sh/uv/) — менеджер зависимостей и запуска
+- uv- менеджер зависимостей и запуска
 
 ## Установка
 
@@ -34,7 +32,7 @@ cd devops-engineer-from-scratch-project-49
 make install
 ```
 
-`make install` — это `uv sync`: создаёт `.venv`, ставит зависимости и сам
+`make install` - это `uv sync`: создаёт `.venv`, ставит зависимости и сам
 пакет `brain_games` в режиме редактирования.
 
 ## Запуск
